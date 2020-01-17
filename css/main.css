@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -24,4 +25,8 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+figure {
+  margin: 0;
 }

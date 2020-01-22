@@ -3,9 +3,10 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 
   -moz-text-size-adjust: 100%;
@@ -29,4 +30,13 @@ body {
 
 figure {
   margin: 0;
+}
+
+.unit-xs-1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
 }
